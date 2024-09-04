@@ -1,8 +1,6 @@
 const Exo = require('../models/Exo');
 
 exports.createExo = (req, res, next) => {
-    console.log("Salit");
-    console.log(req.body);
     const exo = new Exo({
         name : req.body.exo.name,
         video : req.body.exo.video
