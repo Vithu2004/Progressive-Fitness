@@ -13,3 +13,5 @@ mongoose-unique-validator,
 multer,
 jsonwebtoken,
 bcrypt
+
+You should also add your own cluster MongoDB url in app.js in the backend.
