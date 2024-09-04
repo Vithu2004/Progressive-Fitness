@@ -8,7 +8,7 @@ const planRoute = require('./routes/plan');
 const workoutRoute = require('./routes/workout');
 const exoRoute = require('./routes/exo');
 
-mongoose.connect('mongodb+srv://vithujan200426:Hp0znPVs8lmFWP4b@cluster0.slocemr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+mongoose.connect('{Add Your Own URL MongoDB}',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
