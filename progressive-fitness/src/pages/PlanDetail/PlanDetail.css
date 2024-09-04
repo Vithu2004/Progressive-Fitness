@@ -1,0 +1,79 @@
+.pf-planDetail{
+    display: flex;
+    flex-direction: column;
+}
+
+.pf-planDetail-plan{
+    margin-top: 64px;
+    margin-left: 3.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 6px;
+    background: #0000004d;
+    background-repeat: no-repeat;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 93%;
+    height: 215px;
+}
+
+.pf-planDetail-title, .pf-planDetail-type, .pf-planDetail-duration {
+    position: relative;
+    left: 16px;
+    font-family: "IBM Plex Mono";
+}
+
+.pf-planDetail-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.pf-planDetail-type{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.pf-planDetail-duration{
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+
+.pf-planDetail-workouts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 93%;
+    margin-left: 3.5%;
+    background-color: #1C1C1C;
+}
+
+.pf-planDetail-workout-item{
+    width: 87.5%;
+    margin-top: 32px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 16px;
+}
+
+.pf-planDetail-workout-item-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    height: 32px;
+    background: #950101;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.pf-planDetail-workout-item-exo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    font-weight: 200;
+    border-top: 2px solid #2d2d2d;
+}

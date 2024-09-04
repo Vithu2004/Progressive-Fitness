@@ -1,0 +1,9 @@
+.template-auth-button{
+    width: 80%;
+    height: 55px;
+    background: linear-gradient(to right, #ff0000, #3d0000);
+    border-radius: 12px;
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}

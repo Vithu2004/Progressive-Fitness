@@ -1,0 +1,60 @@
+.template-signup-title{
+    position: relative;
+    left: 32px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: fit-content;
+}
+
+.template-signup-title-title{
+    color : #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.template-signup-title-auth{
+    width: 20px;
+    height: 20px;
+}
+
+.template-signup-form{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 12px;
+}
+
+.template-signup-form > button{
+    margin-top: 60px;
+}
+
+.template-signup-error{
+    width: 80%;
+    background-color: #3D0000;
+    border-radius: 12px;
+    color : #FF0000;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.template-signup-login{
+    color : #FF0000;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

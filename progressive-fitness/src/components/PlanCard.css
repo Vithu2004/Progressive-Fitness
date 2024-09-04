@@ -1,0 +1,33 @@
+.pf-plan{
+    flex: 0 0 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 6px;
+    background: #0000004d;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 215px;
+    scroll-snap-align: start;
+}
+
+.pf-plan-title, .pf-plan-type, .pf-plan-duration {
+    position: relative;
+    left: 16px;
+    font-family: "IBM Plex Mono";
+}
+
+.pf-plan-title{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.pf-plan-type{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.pf-plan-duration{
+    font-weight: 100;
+    margin-bottom: 10px;
+}

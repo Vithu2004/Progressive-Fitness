@@ -1,0 +1,7 @@
+{
+  "name": "Progressive Fitness",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

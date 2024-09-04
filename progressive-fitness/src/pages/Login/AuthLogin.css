@@ -1,0 +1,54 @@
+.template-login-title{
+    position: relative;
+    left: 32px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: fit-content;
+
+}
+
+.template-login-title-title{
+    color : #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.template-login-title-auth{
+    width: 20px;
+    height: 19px;
+}
+
+.template-login-form{
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap : 12px;
+}
+
+.template-login-forgotPassword , .template-login-createAccount{
+    color : #FF0000;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.template-login-forgotPassword{
+    align-self: flex-end;
+    margin-right: 10%;
+    margin-bottom: 36px;
+}
+
+.template-login-createAccount{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

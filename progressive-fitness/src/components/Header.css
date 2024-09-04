@@ -1,0 +1,11 @@
+.template-app-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.template-app-header-logo{
+    width: 32px;
+    height: 32px;
+}

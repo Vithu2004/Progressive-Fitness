@@ -1,0 +1,16 @@
+
+.template-app-input{
+    width: 80%;
+    height: 55px;
+    border : solid 1px #950101;
+    border-radius: 12px;
+    background: none;
+}
+
+.template-app-input::placeholder{
+    padding-left: 16px;
+    color: #fff;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
